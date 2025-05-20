@@ -105,6 +105,16 @@
 			<artifactId>rest-assured</artifactId>
 			<version>5.5.1</version>
 			<scope>test</scope>
+		</dependency>		
+		<dependency>
+			<groupId>com.stripe</groupId>
+			<artifactId>stripe-java</artifactId>
+			<version>29.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>me.paulschwarz</groupId>
+			<artifactId>spring-dotenv</artifactId>
+			<version>4.0.0</version>
 		</dependency>
 	</dependencies>
 
@@ -118,6 +128,8 @@
 						<path>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
+							<version>1.18.38</version>
+							<scope>provided</scope>
 						</path>
 					</annotationProcessorPaths>
 				</configuration>
